@@ -1,0 +1,18 @@
+{
+	"name": "Netflix Helper",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "This Extension created for personal purposes, then my friends asking for this to give them. so I realized some people like me out there who need this. That's why I release this small extension.",
+	"homepage_url": "https://github.com/sarequl",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.netflix.com/*"],
+			"js": ["src/netflixHelper.js"]
+		}
+	]
+}
