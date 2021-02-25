@@ -1,6 +1,6 @@
 {
 	"name": "Netflix Helper",
-	"version": "1.0",
+	"version": "2.0",
 	"manifest_version": 2,
 	"description": "This Netflix extension to control volume with the mouse wheel, and auto skip intro.",
 	"homepage_url": "https://github.com/sarequl",
