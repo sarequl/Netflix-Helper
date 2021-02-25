@@ -1,0 +1,233 @@
+html,
+body {
+	width: 320px;
+	position: relative;
+	/* height: 100%; */
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
+		sans-serif;
+}
+
+a {
+	color: rgb(0, 100, 200);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5672ff;
+}
+
+a:visited {
+	color: rgb(0, 80, 160);
+}
+
+label {
+	display: block;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 4px 0;
+	padding: 4px;
+	margin: 0 0 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+/*global css netflix helper*/
+/*fglobal css*/
+.ci_settings_area {
+	/*max-width: 36rem;*/
+	background: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+}
+h1,
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ci_container {
+	padding: 16px;
+}
+/*==============================*/
+/******** Header Area CSS *******/
+/*==============================*/
+
+/*==============================*/
+/******** Check Box CSS *********/
+/*==============================*/
+.ci_check-box,
+.ci_header-area,
+.ci_disable,
+.ci_refresh_button {
+	border-bottom: 2px solid #f2f2f5;
+}
+.ci_check-box .ci_check input[type='checkbox'] {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000;
+}
+.ci_check {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+/*.ci_check:nth-of-type(2) {
+	margin-bottom: 0;
+}*/
+.ci_check label {
+	margin-left: 8px;
+}
+/*==============================*/
+/********button-disable CSS *****/
+/*==============================*/
+.ci_button-disable span {
+	margin-right: 10px;
+}
+.ci_button-disable {
+	display: flex;
+	align-items: center;
+}
+/*On-Off*/
+.ci_on-off-disable {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 14px;
+}
+.ci_on-off-disable input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.ci_disable .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.ci_disable .slider::before {
+	position: absolute;
+	content: '';
+	height: 10px;
+	width: 10px;
+	left: 2px;
+	top: 2px;
+	background-color: white;
+	transition: 0.4s;
+}
+.ci_disable input:checked + .slider {
+	background-color: #000000;
+}
+
+.ci_disable input:checked + .slider:before {
+	transform: translateX(15px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+.slider.round:before {
+	border-radius: 50%;
+}
+/*==============================*/
+/******** Bottom item CSS *******/
+/*==============================*/
+.ci_bottom-item ul li {
+	margin-bottom: 16px;
+}
+.ci_bottom-item ul li a {
+	color: #08092e;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+.ci_bottom-item ul li a i {
+	font-size: 20px;
+	margin-right: 10px;
+}
+.ci_bottom-item ul li:nth-child(1) a i {
+	color: #ffa127;
+}
+.ci_bottom-item ul li:nth-child(2) a i {
+	color: #4b50f9;
+}
+.ci_bottom-item ul li:nth-child(3) a {
+	color: #26cb3c;
+}
+.ci_bottom-item ul li:nth-of-type(3) {
+	margin-bottom: 0;
+}
+
+.slider.round.svelte-gnth4s.svelte-gnth4s {
+	border-radius: 34px !important;
+}
+
+.ci_on-off.svelte-gnth4s.svelte-gnth4s {
+	position: relative;
+	display: inline-block;
+	width: 40px !important;
+	height: 24px !important;
+}
+input.svelte-gnth4s:checked + .slider.svelte-gnth4s:before {
+	transform: translateX(15px) !important;
+}
+.slider.svelte-gnth4s.svelte-gnth4s:before {
+	position: absolute;
+	content: '';
+	height: 18px !important;
+	width: 18px !important;
+	left: 3px !important;
+	bottom: 3px !important;
+	background-color: white;
+	transition: 0.4s;
+}

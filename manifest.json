@@ -9,10 +9,16 @@
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png"
 	},
+	"browser_action": {
+		"default_icon": "icons/icon128.png",
+		"default_title": "Netflix Helper UI",
+		"default_popup": "src/popup/public/index.html"
+	},
 	"content_scripts": [
 		{
 			"matches": ["https://www.netflix.com/*"],
-			"js": ["src/netflixHelper.js"]
+			"js": ["src/backend/netflixHelper.js"]
 		}
-	]
+	],
+	"permissions": ["storage", "tabs", "http://*/", "https://*/"]
 }
