@@ -46,13 +46,13 @@
 		align-items: center;
 	}
 	.ci_logo img {
-		width: 3rem;
-		height: 3rem;
-		margin-right: 1rem;
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 700;
 		color: #08092e;
 	}
@@ -70,12 +70,13 @@
 		margin-left: 15px;
 		font-family: 'Roboto', sans-serif;
 		color: #08092e;
+		font-size:14px;
 	}
 	.ci_on-off {
 		position: relative;
 		display: inline-block;
-		width: 4rem;
-		height: 2.4rem;
+		width: 40px;
+		height: 24px;
 	}
 	.ci_on-off input {
 		opacity: 0;
@@ -97,10 +98,10 @@
 	.slider:before {
 		position: absolute;
 		content: '';
-		height: 1.8rem;
-		width: 1.8rem;
-		left: 0.3rem;
-		bottom: 0.3rem;
+		height: 18px;
+		width: 18px;
+		left: 3px;
+		bottom: 3px;
 		background-color: white;
 		transition: 0.4s;
 	}
@@ -110,11 +111,11 @@
 	}
 
 	input:checked + .slider:before {
-		transform: translateX(1.5rem);
+		transform: translateX(15px);
 	}
 
 	.slider.round {
-		border-radius: 3.4rem;
+		border-radius: 34px;
 	}
 
 	.slider.round:before {

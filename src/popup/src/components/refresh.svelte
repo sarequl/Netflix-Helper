@@ -30,21 +30,21 @@
 	button.ci_refresh_button {
 		text-align: center;
 		border-radius: 6px;
-		padding: 1rem;
+		padding: 10px;
 		color: #fff;
 		font-weight: 500;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 400px;
-		height: 60px;
+		width: 100%;
+		height: 45px;
 	}
 	button.ci_refresh_button.ci_btn_active {
 		background: #5672ff;
 	}
 	button.ci_refresh_button i {
 		padding-right: 5px;
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	/*new*/
@@ -54,6 +54,6 @@
 	}
 
 	button.ci_refresh_button {
-		height: 50px !important;
+		height: 45px !important;
 	}
 </style>

@@ -107,20 +107,21 @@ ul {
 	border-bottom: 2px solid #f2f2f5;
 }
 .ci_check-box .ci_check input[type='checkbox'] {
-	width: 20px;
-	height: 20px;
-	border: 2px solid #000;
+	width: 16px;
+    height: 16px;
+    border: 2px solid #000;
 }
 .ci_check {
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 /*.ci_check:nth-of-type(2) {
 	margin-bottom: 0;
 }*/
 .ci_check label {
 	margin-left: 8px;
+    line-height: 22px;
 }
 /*==============================*/
 /********button-disable CSS *****/
@@ -189,10 +190,10 @@ ul {
 	color: #08092e;
 	display: flex;
 	align-items: center;
-	font-size: 15px;
+	font-size: 14px;
 }
 .ci_bottom-item ul li a i {
-	font-size: 20px;
+	font-size: 18px;
 	margin-right: 10px;
 }
 .ci_bottom-item ul li:nth-child(1) a i {
