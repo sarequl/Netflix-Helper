@@ -4,28 +4,26 @@
 	import HideSections from './components/hideSections.svelte';
 	import Footer from './components/footer.svelte';
 	import RefreshButton from './components/refresh.svelte';
-	import KyeboardShortcut from './components/KeyboardShortcut.svelte';
+	//import KyeboardShortcut from './components/KeyboardShortcut.svelte';
 
 	//
 	let isRefresh = false;
 	const setIsRefresh = () => (isRefresh = !isRefresh);
+	const makeIsRefresh = () => (isRefresh = true);
+	const falseRefresh = () => (isRefresh = false);
+
+	let isGlobalOff = false;
+	const setIsGlobalOff = value => (isGlobalOff = value);
 </script>
 
 <main>
 	<div class="ci_settings_area">
-		<!-- Start Header Area -->
-		<Header changeHandler={setIsRefresh} />
-		<!-- End Header Area -->
-		<!-- Start Check Box Area -->
-		<HideSections changeHandler={setIsRefresh} />
-		<!-- End Check Box Area -->
-		<!-- Start Disable button Area -->
-		<KyeboardShortcut />
-		<!-- End Disable button Area -->
+		<Header changeHandler={setIsRefresh} {setIsGlobalOff} />
+		{#if isGlobalOff}
+			<HideSections isRefresh={makeIsRefresh} {falseRefresh} />
+		{/if}
 		<RefreshButton {isRefresh} />
-		<!-- Start feedback Area -->
 		<Footer />
-		<!-- End feedback Area -->
 	</div>
 </main>
 

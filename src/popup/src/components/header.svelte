@@ -1,10 +1,12 @@
 <script>
 	import storage from '../modules/storage';
 	import { onMount } from 'svelte';
+	export let setIsGlobalOff;
 
 	async function main(activeExtension) {
 		//set value
 		await storage.set({ activeExtension });
+		setIsGlobalOff(activeExtension);
 	}
 	let activeExtension;
 	//
@@ -12,6 +14,7 @@
 	//
 	onMount(async () => {
 		const data = await storage.get('activeExtension');
+		setIsGlobalOff(data);
 		activeExtension = data;
 	});
 	//logo
@@ -70,7 +73,7 @@
 		margin-left: 15px;
 		font-family: 'Roboto', sans-serif;
 		color: #08092e;
-		font-size:14px;
+		font-size: 14px;
 	}
 	.ci_on-off {
 		position: relative;
