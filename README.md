@@ -11,6 +11,8 @@ This extension currently has these features.
 
 | Features                                         | Status      |
 | ------------------------------------------------ | ----------- |
+| Cool UI                                          | Yes         |
+| On / Off Extension with a button                 | Yes         |
 | Control volume with mouse                        | Yes         |
 | Auto Skip Intro                                  | Yes         |
 | Hide Sections that you don't like                | Yes         |
