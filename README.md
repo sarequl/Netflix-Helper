@@ -26,6 +26,7 @@ This extension currently has these features.
 2. On / Off extension functionality with a button.
 3. Hide Sections that you don't like.
 4. Reload Button (after any changes).
+5. Added more bugs to fix later :joy:
 
 ### Changelog 1.0
 
