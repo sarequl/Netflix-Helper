@@ -16,15 +16,15 @@ This extension currently has these features.
 | Control volume with mouse                        | Yes         |
 | Auto Skip Intro                                  | Yes         |
 | Hide Sections that you don't like                | Yes         |
+| Keyboard Shortcut                                | Yes         |
 | Assign mouse/keyboard button for different tasks | Coming soon |
 
 # Changelog
 
 ### Changelog 2.0.2
 
-1. Added Keyboard Shortcut.
-   /_ Press N for Next Episode _/
-   2.Feel free to create an issue about what shortcut you need.
+1. Added Keyboard Shortcut. (Press N for Next Episode)
+2. Feel free to create an issue about what shortcut you need.
 
 ### Changelog 2.0
 
