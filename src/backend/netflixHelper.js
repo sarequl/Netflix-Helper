@@ -75,6 +75,7 @@ function mainEx() {
 		const myListStatus = await storage.get('myList');
 		const continueWatchingStatus = await storage.get('continueWatching');
 		const trendingNowStatus = await storage.get('trendingNow');
+		const keyboardShortcuts = await storage.get('keyboardShortcuts');
 		//////////hide header video animation
 		const headerVideoSound = document.querySelector('video');
 		const headerVideoContainer = document.querySelector('span.volatile-billboard-animations-container');
@@ -91,7 +92,7 @@ function mainEx() {
 
 		///////hide my list
 		//hide my list
-		const getMyList = document.querySelector('.lolomoRow.lolomoRow_title_card');
+		const getMyList = document.querySelector('[data-list-context="queue"]');
 		if (myListStatus) {
 			if (getMyList) {
 				getMyList.style.display = 'none';
@@ -113,6 +114,19 @@ function mainEx() {
 				getTrendingNow.style.display = 'none';
 			}
 		}
+
+		//////////keybaord Shortcuts
+		let nextEpisode = document.querySelector('button.button-nfplayerNextEpisode');
+		document.addEventListener("keypress", function(e) {
+			//storage checker
+			if(keyboardShortcuts){
+				if (e.key === 'n' || e.key === 'N') {
+					if(nextEpisode) nextEpisode.click();
+				}
+			}
+			
+		});
+
 	}
 	//hideSections();
 	const observer = new MutationObserver(hideSections);
