@@ -19,6 +19,12 @@ This extension currently has these features.
 | Keyboard Shortcut                                | Yes         |
 | Assign mouse/keyboard button for different tasks | Coming soon |
 
+---
+
+## [Install Here](https://chrome.google.com/webstore/detail/netflix-helper/mlfdbphlfojgfeepjojcalginhedfpnk)
+
+---
+
 # Changelog
 
 ### Changelog 2.0.2
