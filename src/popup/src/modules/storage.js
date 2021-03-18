@@ -12,8 +12,7 @@ class Storage {
 	get(key) {
 		return new Promise((resolve, reject) => {
 			chrome.storage.local.get(key, data => {
-				if (Object.keys(data).length === 0 && data.constructor === Object)
-					reject('no data returned by localStorage');
+				if (Object.keys(data).length === 0 && data.constructor === Object) resolve(null);
 				resolve(data[key]);
 			});
 		});
