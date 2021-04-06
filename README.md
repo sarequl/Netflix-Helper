@@ -2,8 +2,8 @@
 
 ### Note
 
-This Extension created for personal purposes, then my friends asking for this to give them.
-so I realized some people like me out there who need this. That's why I release this small extension.
+This Netflix extension controls volume with the mouse wheel, and auto skip intros.
+I originally created this for myself, but my friends suggested I make it publicly available since they found it useful - so here it is, free for you! 🙂
 
 ### All Features
 
