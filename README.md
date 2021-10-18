@@ -21,8 +21,10 @@ This extension currently has these features.
 
 ---
 
-## [Install Here](https://chrome.google.com/webstore/detail/netflix-helper/mlfdbphlfojgfeepjojcalginhedfpnk)
+## Install Now
+##### [Chrome](https://chrome.google.com/webstore/detail/netflix-helper/mlfdbphlfojgfeepjojcalginhedfpnk)
 
+##### [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-helper/)
 ---
 
 # Changelog
