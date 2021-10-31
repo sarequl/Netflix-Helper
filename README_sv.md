@@ -27,24 +27,26 @@ Det här tillägget har för närvarande dessa funktioner.
 ##### [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-helper/)
 ---
 
-# Changelog
+# Ändringslogg
 
-### Changelog 2.0.2
+### Ändringslogg 2.0.2
 
-1. Added Keyboard Shortcut. (Press N for Next Episode)
-2. Feel free to create an issue about what shortcut you need.
+1. Tillagd kortkommando. (Tryck på N för nästa avsnitt)
+2. Skapa gärna ett problem om vilken genväg du behöver.
 
 ### Changelog 2.0
 
-1. Added UI for the extension.
-2. On / Off extension functionality with a button.
-3. Hide Sections that you don't like.
-4. Reload Button (after any changes).
-5. Added more bugs to fix later :joy:
+1. Lade till användargränssnitt för tillägget.
+2. På/av förlängningsfunktionalitet med en knapp.
+3. Göm avsnitt som du inte gillar.
+4. Reload-knapp (efter eventuella ändringar).
+5. Lade till fler buggar att fixa senare :joy:
 
 ### Changelog 1.0
 
-1. Control volume with mouse.
-2. Auto Skip Intro
+1. Styr volymen med musen.
+2. Auto Hoppa över Intro
+
+
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/sarequl)
