@@ -9,15 +9,15 @@ Jag skapade det här för mig själv, men mina vänner föreslog att jag skulle 
 
 Det här tillägget har för närvarande dessa funktioner.
 
-| Funktioner | Status |
-| -------------------------------------------------- | ----------- |
-| Coolt UI | Ja |
-| På/av Förlängning med en knapp | Ja |
-| Styr volymen med musen | Ja |
-| Auto Skip Intro | Ja |
-| Göm avsnitt som du inte gillar | Ja |
-| Kortkommando | Ja |
-| Tilldela mus-/tangentbordsknapp för olika uppgifter | Kommer snart |
+| Funktioner                                          | Status      |
+| ----------------------------------------------------| ----------- |
+| Coolt UI                                            | Ja          |
+| På/av Förlängning med en knapp                      | Ja          |
+| Styr volymen med musen                              | Ja          |
+| Auto Hoppa över Intro                               | Ja          |
+| Göm avsnitt som du inte gillar                      | Ja          |
+| Tangentbordsgenväg                                  | Ja          |
+| Tilldela mus-/tangentbordsknapp för olika uppgifter | Kommer snart|
 
 ---
 
