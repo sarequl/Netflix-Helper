@@ -63,12 +63,10 @@ function mainEx() {
 	async function hideSections() {
 		//console.log('triggerd');
 		// skip intro
-		let intro = document.querySelector('.skip-credits');
+
+		let intro = document.querySelector('button.watch-video--skip-content-button');
 		if (intro) {
-			if (!intro.classList.contains('skip-credits-hidden')) {
-				let button = intro.querySelector('span');
-				if (button) button.click();
-			}
+			intro.click();
 		}
 		//////get data from storage
 		const headerCheckBoxStatus = await storage.get('hideHeaderVideo');
@@ -116,17 +114,15 @@ function mainEx() {
 		}
 
 		//////////keybaord Shortcuts
-		let nextEpisode = document.querySelector('button.button-nfplayerNextEpisode');
-		document.addEventListener("keypress", function(e) {
+		let nextEpisode = document.querySelector('button[aria-label="Next Episode"]');
+		document.addEventListener('keypress', function (e) {
 			//storage checker
-			if(keyboardShortcuts){
+			if (keyboardShortcuts) {
 				if (e.key === 'n' || e.key === 'N') {
-					if(nextEpisode) nextEpisode.click();
+					if (nextEpisode) nextEpisode.click();
 				}
 			}
-			
 		});
-
 	}
 	//hideSections();
 	const observer = new MutationObserver(hideSections);
