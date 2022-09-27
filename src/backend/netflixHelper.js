@@ -58,22 +58,25 @@ function mainEx() {
 
 	//console.log('extension enabled');
 
-	//now extra try
 	//hide header big video section
 	async function hideSections() {
 		//console.log('triggerd');
-		// skip intro
 
+		// Auto Skip Intro and Recap
 		let intro = document.querySelector('button.watch-video--skip-content-button');
 		if (intro) {
 			intro.click();
 		}
-		//////get data from storage
+
+		/**
+		 * get data from storage
+		 */
 		const headerCheckBoxStatus = await storage.get('hideHeaderVideo');
 		const myListStatus = await storage.get('myList');
 		const continueWatchingStatus = await storage.get('continueWatching');
 		const trendingNowStatus = await storage.get('trendingNow');
 		const keyboardShortcuts = await storage.get('keyboardShortcuts');
+
 		//////////hide header video animation
 		const headerVideoSound = document.querySelector('video');
 		const headerVideoContainer = document.querySelector('span.volatile-billboard-animations-container');
