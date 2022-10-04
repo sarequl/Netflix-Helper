@@ -68,6 +68,12 @@ function mainEx() {
 			intro.click();
 		}
 
+		//next episode on button appear
+		let nextEpButton = document.querySelector('button[data-uia="next-episode-seamless-button"]');
+		if (nextEpButton) {
+			nextEpButton.click();
+		}
+
 		/**
 		 * get data from storage
 		 */
