@@ -22,12 +22,21 @@ This extension currently has these features.
 ---
 
 ## Install Now
+
 ##### [Chrome](https://chrome.google.com/webstore/detail/netflix-helper/mlfdbphlfojgfeepjojcalginhedfpnk)
 
 ##### [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-helper/)
+
 ---
 
 # Changelog
+
+### Changelog 2.1.0
+
+1. Fixed (auto skip intro, auto skip recap, auto skip outro).
+2. Auto Next Episode.
+3. manifest version 3
+4. Feel free to create an issue about what shortcut you need.
 
 ### Changelog 2.0.2
 
